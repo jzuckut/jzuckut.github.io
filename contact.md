@@ -3,7 +3,7 @@ layout: default
 title: "Contact"
 permalink: /contact
 ---
-## 📩: jzuckut1@gmail.com   
+## 📧: jzuckut1@gmail.com   
     
 
 ## Connect on LinkedIn:
