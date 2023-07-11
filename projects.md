@@ -3,6 +3,13 @@ layout: default
 title: "Projects"
 permalink: /projects
 ---
+
+ <head>
+    <title>Projects</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+
 # Some of my projects are listed below:
 #### [Earthquake Project]
 * A project where I used data from NASA's Earthquakes database to explore patterns in the seismic activity in the San Francisco Bay Area
