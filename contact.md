@@ -1,8 +1,25 @@
 ---
-layout: default
 title: "Contact"
 permalink: /contact
 ---
+
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <nav class = "navbar">
+      <a href="#" class="logo">Jackie Zuckut</a>
+            <ul class="navlinks">
+                <u1 class="navitem"><a href="about">About</a></u1>
+                <ul class="navitem"><a href="projects">Projects</a></ul>
+                <ul class="navitem"><a class="current" href="contact">Contact Me</a></ul>
+            </ul>
+        </ul>
+    </nav>
+</body>
+
+
 ## 📧: jzuckut1@gmail.com   
     
 
