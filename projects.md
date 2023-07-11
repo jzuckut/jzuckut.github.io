@@ -1,20 +1,20 @@
 ---
-layout: default
 title: "Projects"
 permalink: /projects
 ---
 
- <head>
+<head>
     <title>Projects</title>
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
     <nav class = "navbar">
-        <ul class="navlinks">
-            <ul class="navitem"><a href ="index.html">Home</a></ul>
-            <u1 class="navitem"><a href="about">About</a></u1>
-            <ul class="navitem"><a class="current" href="projects">Projects</a></ul>
-            <ul class="navitem"><a href="contact">Contact</a></ul>
+      <a href="#" class="logo">Jackie Zuckut</a>
+            <ul class="navlinks">
+                <u1 class="navitem"><a href="about">About</a></u1>
+                <ul class="navitem"><a class = "current" href="projects">Projects</a></ul>
+                <ul class="navitem"><a href="contact">Contact Me</a></ul>
+            </ul>
         </ul>
     </nav>
   </body>
