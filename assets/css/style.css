@@ -1,31 +1,35 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    font-family: haboro, sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: haboro, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 2em;
 
 }
 
 .navitem a {
-   color:black;
-   text-decoration: none;
+ color:black;
+ text-decoration: none;
 }
 
 .navitem .current {
-  text-decoration: underline;
+ color: black;
+ text-decoration: underline;
+}
+
+.logo {
+  color: black;
+  font-family: Garamond;
+  text-decoration: none;
+  font-style:italic;
+  padding:1em;
+  justify-content: left;
 }
 
 .navlinks {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0%;
-
-}
-
-.wrapbody {
-margin-left: 100px;
-margin-top: 0px;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding: 0%;
 }
