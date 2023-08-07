@@ -16,6 +16,9 @@ permalink: /projects
                 <ul class="navitem"><a href="contact">Contact Me</a></ul>
             </ul>
     </nav>
+    <div class = "header">
+      <h1 style="font-family:Trebuchet MS;">Projects</h1>
+    </div>
   </body>
 
 
