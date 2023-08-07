@@ -47,6 +47,7 @@ p {
 .header {
   background-image: url("https://t3.ftcdn.net/jpg/04/28/78/16/360_F_428781613_VHeRTEzK2kCAOuWGuHyDi99KlCJSfgX0.jpg");
   background-color: #2f90ff;
+  background-size: cover;
   color: white;
   padding: 10px;
 }
