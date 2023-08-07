@@ -16,6 +16,9 @@ permalink: /contact
                 <ul class="navitem"><a class="current" href="contact">Contact Me</a></ul>
             </ul>
     </nav>
+    <div class = "header">
+      <h1 style="font-family:Trebuchet MS;">Contact Me</h1>
+    </div>
 </body>
 
 
