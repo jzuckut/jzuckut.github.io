@@ -3,7 +3,6 @@ title: "About"
 permalink: /about
 ---
 
-
 <head>
     <title>About</title>
     <link rel="stylesheet" href="assets/css/style.css">
@@ -17,7 +16,8 @@ permalink: /about
                 <ul class="navitem"><a href="contact">Contact Me</a></ul>
             </ul>
     </nav>
+    <div class = "header">
+      <h1 style="font-family:Trebuchet MS;">About me</h1>
+    </div>
+    <p style="font-family:Trebuchet MS;font-style:normal">Hi! 👋🏻 I’m Jackie and I'm a student at UC Berkeley studying Computer Science and Economics.  I am skilled in frontend, backend, data analysis, and financial modeling, and I’m passionate about software engineering, finance, and sustainability.  Some things I enjoy doing in my free time are hiking, traveling, trying new restaurants, cooking, working out, and listening to music.  Below are some snapshots of places I've been 📷</p>
 </body>
-
-
-# This is my about page
