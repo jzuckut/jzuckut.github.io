@@ -73,3 +73,46 @@ p {
 .LI-profile-badge {
   margin: 100px;
 }
+
+.container {
+  margin-left: 100px;
+  margin-bottom: 100px;
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container:hover .image {
+  opacity: 0.5;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  transition: .2s;
+  color: black;
+  font-style: normal;
+  font-family: 'Trebuchet MS';
+  font-size: 20px;
+  text-align: center;
+}
