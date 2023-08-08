@@ -1,11 +1,26 @@
 .navbar {
+  padding: 10;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: right;
   font-family: haboro, sans-serif;
   font-weight: 100;
   font-style: normal;
   font-size: 2em;
+}
 
+.navlinks {
+  padding: 0;
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.navitem {
+  margin: 0;
+  padding: 0;
+  display: block;
 }
 
 .navitem a {
@@ -27,11 +42,14 @@
   justify-content: left;
 }
 
-.navlinks {
-  display: flex;
-  justify-content: right;
-  align-items: right;
-  padding: 0%;
+h3 {
+  margin: 100px;
+  font-family: "Trebuchet MS"
+}
+
+h2 {
+  margin: 100px;
+  font-family: "Trebuchet MS"
 }
 
 h1 {
@@ -50,4 +68,8 @@ p {
   background-size: cover;
   color: white;
   padding: 10px;
+}
+
+.LI-profile-badge {
+  margin: 100px;
 }
