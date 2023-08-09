@@ -18,19 +18,48 @@
 }
 
 .navitem {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.navitem:hover {
+  color: #000;
+}
+
+.navitem::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: -1;
+  left: 0;
+  background-color: #00e3a8;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.navitem:hover::before {
+  transform: scaleX(1);
+}
+
+.navitem {
   margin: 0;
   padding: 0;
   display: block;
+  text-decoration: none;
 }
 
 .navitem a {
- color:black;
- text-decoration: none;
+  position:relative;
+  color:black;
+  text-decoration: none;
 }
 
 .navitem .current {
- color: black;
- text-decoration: underline;
+  display: inline;
+  border-bottom: 2px solid #00e3a8;
 }
 
 .logo {
