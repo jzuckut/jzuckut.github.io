@@ -9,6 +9,10 @@
   font-size: 2em;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navlinks {
   padding: 0;
   display: flex;
